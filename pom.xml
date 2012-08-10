@@ -17,6 +17,18 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-dto</artifactId>
+			<version>0.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-service</artifactId>
+			<version>0.1</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>3.3</version>
