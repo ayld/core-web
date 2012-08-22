@@ -21,4 +21,13 @@
 
 	<bean id="baseController" class="net.ayld.core.web.controller.BaseController" abstract="true"/>
 
+	<bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+		<property name="scopes">
+	    	<map>
+	        	<entry key="view">
+	            	<bean class="net.ayld.core.web.scope.ViewJsfScope"/>
+	            </entry>
+	        </map>
+	    </property>
+	</bean>
 </beans>
